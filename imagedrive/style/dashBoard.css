@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+#mainContainer{
+    border: 4px;
+    border-radius: 15px;
+    border-style: solid;
+}
+body{
+    background-color: #ffffff;
+}
+.image{
+    margin: 3px;
+    transition: .3s ease;
+    border-radius: 10px;
+}
+.image:hover{
+    transform: scale(1.2);
+    box-shadow: 8px 8px 8px black;
+}
+#welcome{
+    font-family: 'Goblin One', cursive;
+    font-size: xx-large;
+    color: darkblue;
+}

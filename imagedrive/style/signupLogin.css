@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Karla');
+
+* {
+  margin: 0 auto;
+  font-family: 'Karla', sans-serif;
+}
+
+body{
+  /* background-color: rgba(0,0,0,.5); */
+  background-color: white;
+}
+
+#main{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 50vh;
+  box-shadow: 0px 0px 10px 0px black;
+  color: white;
+  background: linear-gradient(to right, #ffc500, #c21500);
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#signin{
+  width: 50%;
+  display: none;
+}
+
+#signinText{
+  text-align: center;
+}
+
+#signinText h1, p, button{
+  margin: 10px;
+}
+
+#signupText h1, p, button{
+  margin: 10px;
+}
+
+#signupText{
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+#signup{
+  width: 50%;
+}
+
+#overlay{
+  display: flex;
+}
+
+#signinLogin{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: black;
+  flex-direction: column;
+  text-align: center;
+}
+
+.social{
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px;
+  height: 40px;
+  width: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+form {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#signinLogin input{
+  margin: 5px;
+  height: 20px;
+  width: 200px;
+  background-color: rgba(0,0,0,.05);
+  border: none;
+}
+
+#new{
+  background: linear-gradient(to right, #ffc500, #c21500);
+}
+
+#forgot{
+  text-decoration: none;
+  color: black;
+}
+
+#signupLogin{
+  display: none;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: black;
+  flex-direction: column;
+  text-align: center;
+}
+
+#signupLogin input{
+  margin: 5px;
+  height: 20px;
+  width: 200px;
+  background-color: rgba(0,0,0,.05);
+  border: none;
+}
