@@ -1,0 +1,24 @@
+{
+  "name": "weight-converter",
+  "version": "1.0.0",
+  "description": "Weight Converter Project By Gaurav Singh",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Weight",
+    "Converter",
+    "Converter",
+    "Weight",
+    "Kg",
+    "Pound",
+    "Gram"
+  ],
+  "author": "Gaurav Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  }
+}

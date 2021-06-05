@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+#maincontainer{
+    width: 50%;
+}
+.subcontainer{
+    border-radius: 15px;
+    width: 97%;
+}
+#input{
+    height: 50px;
+    font-size: xx-large;
+    font-weight: 600;
+}
